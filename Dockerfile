@@ -14,7 +14,7 @@ COPY . /app
 RUN pip install --no-cache-dir flask psycopg2-binary flask-cors
 
 # Exponer el puerto
-EXPOSE 5004
+EXPOSE 5000
 
 # Comando para ejecutar el microservicio
 CMD ["python", "deleteProduct.py"]
